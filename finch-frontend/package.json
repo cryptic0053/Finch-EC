@@ -10,7 +10,7 @@
   "dependencies": {
     "@stripe/stripe-js": "^6.0.0",
     "@types/jwt-decode": "^2.2.1",
-    "axios": "^0.27.2",
+    "axios": "^1.10.0",
     "blueimp-md5": "^2.19.0",
     "core-js": "^3.8.3",
     "dompurify": "^3.2.4",
@@ -30,7 +30,8 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^3.12.1",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "autoprefixer": "^10.4.20",
