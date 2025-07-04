@@ -2,7 +2,8 @@ const { defineConfig } = require("@vue/cli-service");
 require('dotenv').config();
 
 module.exports = defineConfig({
-  transpileDependencies: [], // ✅ Must be an array, not boolean
+  lintOnSave: false, // ✅ Disable ESLint during build
+  transpileDependencies: [], // ✅ Must be an array
   publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
   css: {
     extract: true,
