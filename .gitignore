@@ -1,0 +1,4 @@
+minikube*
+*.tar
+*.zip
+*.iso
