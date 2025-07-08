@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: finch-frontend
+  labels:
+    app: finch-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: finch-frontend
+  template:
+    metadata:
+      labels:
+        app: finch-frontend
+    spec:
+      containers:
+      - name: frontend
+        image: cryptic0053/finch-frontend:latest
+        ports:
+        - containerPort: 80
